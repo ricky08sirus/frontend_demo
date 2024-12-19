@@ -1,0 +1,11 @@
+
+
+import { SVGProps } from "react"
+
+const Binance = ({ ...props }: SVGProps<SVGSVGElement>) => (
+
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <path d="M16.624 13.92L19.342 16.636L11.989 23.989L4.636 16.637L7.353 13.92L11.989 18.58L16.624 13.92ZM21.261 9.28396L24 12L21.285 14.716L18.568 12L21.261 9.28396ZM11.989 9.28396L14.705 11.976L11.988 14.693L9.272 12L11.989 9.28396ZM2.716 9.28396L5.41 12L2.718 14.692L0 12L2.716 9.28396ZM11.99 0.0119629L19.34 7.33996L16.623 10.055L11.99 5.41996L7.354 10.08L4.637 7.36396L11.99 0.0119629Z" fill="#F3BA2F" />
+    </svg>
+)
+export default Binance
